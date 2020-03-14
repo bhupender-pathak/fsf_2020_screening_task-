@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>FOSSEE_bhupender_python_project module &#8212; SpreadSheet_FOSSEE_Project 2.44 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-FOSSEE_bhupender_python_project">
+<span id="fossee-bhupender-python-project-module"></span><h1>FOSSEE_bhupender_python_project module<a class="headerlink" href="#module-FOSSEE_bhupender_python_project" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="FOSSEE_bhupender_python_project.Main">
+<em class="property">class </em><code class="sig-prename descclassname">FOSSEE_bhupender_python_project.</code><code class="sig-name descname">Main</code><a class="headerlink" href="#FOSSEE_bhupender_python_project.Main" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">PyQt5.QtWidgets.QMainWindow</span></code></p>
+<p>this class inheritate from the QMainWindow</p>
+<dl class="method">
+<dt id="FOSSEE_bhupender_python_project.Main.converter">
+<code class="sig-name descname">converter</code><span class="sig-paren">(</span><em class="sig-param">path</em><span class="sig-paren">)</span><a class="headerlink" href="#FOSSEE_bhupender_python_project.Main.converter" title="Permalink to this definition">¶</a></dt>
+<dd><p>it change file format from xlsx to csv</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>path</strong> – Directory path for the file</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="FOSSEE_bhupender_python_project.Main.final_save">
+<code class="sig-name descname">final_save</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#FOSSEE_bhupender_python_project.Main.final_save" title="Permalink to this definition">¶</a></dt>
+<dd><p>creates the text file for workbook</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="FOSSEE_bhupender_python_project.Main.new_sheet">
+<code class="sig-name descname">new_sheet</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#FOSSEE_bhupender_python_project.Main.new_sheet" title="Permalink to this definition">¶</a></dt>
+<dd><p>this function open the new xlsx and csv file</p>
+<dl class="simple">
+<dt>:return<span class="classifier">workbooklist - contains class sheet object list</span></dt><dd><p>paths - list of path for each csv file</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="FOSSEE_bhupender_python_project.Main.quit_app">
+<code class="sig-name descname">quit_app</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#FOSSEE_bhupender_python_project.Main.quit_app" title="Permalink to this definition">¶</a></dt>
+<dd><p>close the window and closes the app</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="FOSSEE_bhupender_python_project.Main.setMenu">
+<code class="sig-name descname">setMenu</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#FOSSEE_bhupender_python_project.Main.setMenu" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the interface, menu, toolbar</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="FOSSEE_bhupender_python_project.Main.setTab">
+<code class="sig-name descname">setTab</code><span class="sig-paren">(</span><em class="sig-param">name</em>, <em class="sig-param">index=0</em><span class="sig-paren">)</span><a class="headerlink" href="#FOSSEE_bhupender_python_project.Main.setTab" title="Permalink to this definition">¶</a></dt>
+<dd><p>In Qtabwidget it add Tabs</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>index</strong> – current index of Tab in QTabWidget</p></li>
+<li><p><strong>name</strong> – sets the title of tab according to csv file name</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="FOSSEE_bhupender_python_project.Main.validate_sheet">
+<code class="sig-name descname">validate_sheet</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#FOSSEE_bhupender_python_project.Main.validate_sheet" title="Permalink to this definition">¶</a></dt>
+<dd><p>validates the workbook table if contains bad values calls message box</p>
+<p>:return : None</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="FOSSEE_bhupender_python_project.Table">
+<em class="property">class </em><code class="sig-prename descclassname">FOSSEE_bhupender_python_project.</code><code class="sig-name descname">Table</code><span class="sig-paren">(</span><em class="sig-param">r</em>, <em class="sig-param">c</em><span class="sig-paren">)</span><a class="headerlink" href="#FOSSEE_bhupender_python_project.Table" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">PyQt5.QtWidgets.QTableWidget</span></code></p>
+<p>it initialize the class QTableWidgets</p>
+<dl class="method">
+<dt id="FOSSEE_bhupender_python_project.Table.interface">
+<code class="sig-name descname">interface</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#FOSSEE_bhupender_python_project.Table.interface" title="Permalink to this definition">¶</a></dt>
+<dd><p>initialize graphical Interface</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="FOSSEE_bhupender_python_project.Table.warning_message">
+<code class="sig-name descname">warning_message</code><span class="sig-paren">(</span><em class="sig-param">bad_values</em>, <em class="sig-param">flag</em><span class="sig-paren">)</span><a class="headerlink" href="#FOSSEE_bhupender_python_project.Table.warning_message" title="Permalink to this definition">¶</a></dt>
+<dd><p>initialize the QMessageBox object for warning message</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>bad_values</strong> – list of (rows,cols) containing bad values/duplicate</p></li>
+<li><p><strong>flag</strong> – Flags the condition for bad values</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="FOSSEE_bhupender_python_project.spread_work">
+<em class="property">class </em><code class="sig-prename descclassname">FOSSEE_bhupender_python_project.</code><code class="sig-name descname">spread_work</code><a class="headerlink" href="#FOSSEE_bhupender_python_project.spread_work" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>class for creating new spreadsheet</p>
+<dl class="method">
+<dt id="FOSSEE_bhupender_python_project.spread_work.setColumnHeaders">
+<code class="sig-name descname">setColumnHeaders</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#FOSSEE_bhupender_python_project.spread_work.setColumnHeaders" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the Headers for the table Object</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">SpreadSheet_FOSSEE_Project</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Bhupender Pathak.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/FOSSEE_bhupender_python_project.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

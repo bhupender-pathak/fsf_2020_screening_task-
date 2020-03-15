@@ -1,7 +1,7 @@
 #SPREADSHEET_PROJECT_BY_PYQT5
 Email: bhupender.pathak@adypu.edu.in Username: bhupender
 
-This PyQt5 tutorial shows how to use Python 3 and Qt to create a GUI on Windows, Mac or Linux. It even covers creating an installer for your app.By using this module we make spreadsheet which has unique features 
+This PyQt5 module shows how to use Python 3 and Qt to create a GUI on Windows, Mac or Linux. It even covers creating an installer for your app.By using this module we make spreadsheet which has unique features 
 ![alt text](https://github.com/bhupender-pathak/fsf_2020_screening_task-/blob/master/Spreadsheet%20screenshot.PNG)
 
 ### Requirements

@@ -10,7 +10,7 @@ This PyQt5 module shows how to use Python 3 and Qt to create a GUI on Windows, M
 - xlrd - xtract data from Excel spreadsheets (.xls and .xlsx, versions 2.0 onwards) on any platform. Pure Python (2.7, 3.4+).Strong support for Excel dates. Unicode-aware
 - OS - This module provides a portable way of using operating system dependent functionality.
  - SYS - This module provides access to some variables used or maintained by the interpreter and to functions thatinteract strongly with the interpreter.
-- csv - The so-called CSV V (Comma Separated Values) format is the most common import and export format for spreadsheets and databases.
+- csv - The so-called CSV(Comma Separated Values) format is the most common import and export format for spreadsheets and databases.
 
 # New Features!
 
